@@ -28,6 +28,9 @@ code {
 .navbar h1 {
   color: blue;
 }
+.navbar h1:hover{
+  cursor: pointer;
+}
 .navbar .links {
   margin-left: auto; /* will send it to left  */
 }
@@ -52,6 +55,7 @@ code {
   border-bottom: 1px solid #fafafa;
 }
 .blog-preview:hover {
+  background-color: rgb(243, 243, 255);
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 }
 .blog-preview h2 {
